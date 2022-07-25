@@ -1,11 +1,15 @@
-﻿Imports System
-
 Namespace FlatDataAdapterSample
+
     Public Class BillionaireInfo
-        Public Property Name() As String
-        Public Property Residence() As String
-        Public Property Source() As String
-        Public Property Age() As Integer
-        Public Property NetWorth() As Double
+
+        Public Property Name As String
+
+        Public Property Residence As String
+
+        Public Property Source As String
+
+        Public Property Age As Integer
+
+        Public Property NetWorth As Double
     End Class
 End Namespace
