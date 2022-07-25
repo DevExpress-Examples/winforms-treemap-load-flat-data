@@ -30,7 +30,7 @@ namespace FlatDataAdapterSample {
         #region #GroupGradientColorizer
         void ConfigureTreeMapColorizer() {
             treeMap.Colorizer = new TreeMapGroupGradientColorizer {
-                GradientColor = Color.Transparent,
+                GradientColor = Color.White,
                 Max = 1,
                 Min = 0.3,
                 Palette = Palette.Office2013Palette,
